@@ -9,7 +9,7 @@ public class Hello{
       System.out.println("Welcome To " + name);
     }
 
-    public static sqrt(int x){
+    public static int sqrt(int x){
         return x*x;
     }
 }
