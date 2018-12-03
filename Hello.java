@@ -1,15 +1,10 @@
 public class Hello{
     public static void main(String[] args){
         System.out.println("CodeIgniter is the easy framework ..");
-         view("CodeIgniter Version 3.1.3");
-         sqrt(5);
+        
     }
 
-    public static void view(String name){
-      System.out.println("Welcome To " + name);
-    }
-
-    public static int sqrt(int x){
-        return x*x;
-    }
+   public static void message(){
+       System.out.println("Hurray!! We are able to contribute on opensource");
+   }
 }
